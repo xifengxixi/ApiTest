@@ -1,7 +1,5 @@
 base: 
-  test_url: http://172.16.10.218:11001 # 测试环境
-  yhzx_url: http://172.16.10.218:10188 # 用户中心登录地址
-  workFlow_url: http://172.16.10.218:10193 # 工作流地址
+  test_url: xxx # 测试环境
   
 log:
   log_name: log
@@ -27,18 +25,18 @@ MysqlDB:
 
 # Oracle相关配置
 OracleDB:
-  host: 172.16.10.220
-  post: 1521
-  service: ltp
+  host: 
+  post: 
+  service: 
   user:
   password:
 
 # 钉钉相关配置
 DingTalk:
-  webhook: https://oapi.dingtalk.com/robot/send?access_token=0bba31edd3b67f029941b1cfc68323d5c3ef64a84f6317757a4888b9db5ae845
-  secret: SECafb47e38fc77bbcdd32d5b4d4c9090a8993bca6d16e0791d129356aa39c7797e
+  webhook: 
+  secret: 
   # 钉钉消息推送类型：1：text 2:link 3:markdown
   send_type: markdown
   # 钉钉消息@对象,列表格式,不填则默认所有人
   mobiles:
-    - 17628271013
+    - 
