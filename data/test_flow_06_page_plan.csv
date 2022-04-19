@@ -1,4 +1,0 @@
-name,orderNo,extract
-计划管理page查询值班计划id,"{{orderNo_car}}",id_carPlan:id
-计划管理page查询货运计划id,"{{orderNo_goods}}",id_goodsPlan:id
-计划管理page查询总包计划id,"{{orderNo_total}}",id_totalPlan:id
