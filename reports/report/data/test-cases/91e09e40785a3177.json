@@ -1,0 +1,118 @@
+{
+  "uid" : "91e09e40785a3177",
+  "name" : "提报人登录",
+  "fullName" : "testcases.Flow.test_flow.TestFlow#test_02_login",
+  "historyId" : "47c833bba8ea09243d1dfa225de63118",
+  "time" : {
+    "start" : 1647823282761,
+    "stop" : 1647823285132,
+    "duration" : 2371
+  },
+  "description" : "提报人登录",
+  "descriptionHtml" : "<p>提报人登录</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1647823281936,
+      "stop" : 1647823282182,
+      "duration" : 246
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "auto_clean_extract",
+    "time" : {
+      "start" : 1647823282182,
+      "stop" : 1647823282183,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "提报人登录",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "262c19553fa49b7",
+      "name" : "log",
+      "source" : "262c19553fa49b7.txt",
+      "type" : "text/plain",
+      "size" : 1052
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "流程测试"
+  }, {
+    "name" : "epic",
+    "value" : "吐哈接口测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases.Flow"
+  }, {
+    "name" : "suite",
+    "value" : "test_flow"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestFlow"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-THIAO5U"
+  }, {
+    "name" : "thread",
+    "value" : "6016-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.Flow.test_flow"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseinfo",
+    "value" : "{'name': '提报人登录', 'base_url': '${get_url(yhzx_url)}', 'parameters': {'name-account-code-pwd-extract-validate': 'data/test_flow_02_login.csv'}, 'request': {'method': 'POST', 'url': '/user_center/account/login', 'json': {'account': 'vJzarh1FCgzAvcJJybJRzA==', 'code': '${get_extract(image_code)}', 'pwd': '1a8f04ad2d17eee8a6bbe029ae597461'}}, 'extract': {'token_tb': 'token'}, 'validate': [{'equals': {'status_code': 200}}, {'equals': {'code': 0}}, {'contains': 'token'}]}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "91e09e40785a3177.json",
+  "parameterValues" : [ "{'name': '提报人登录', 'base_url': '${get_url(yhzx_url)}', 'parameters': {'name-account-code-pwd-extract-validate': 'data/test_flow_02_login.csv'}, 'request': {'method': 'POST', 'url': '/user_center/account/login', 'json': {'account': 'vJzarh1FCgzAvcJJybJRzA==', 'code': '${get_extract(image_code)}', 'pwd': '1a8f04ad2d17eee8a6bbe029ae597461'}}, 'extract': {'token_tb': 'token'}, 'validate': [{'equals': {'status_code': 200}}, {'equals': {'code': 0}}, {'contains': 'token'}]}" ]
+}

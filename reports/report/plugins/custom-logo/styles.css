@@ -1,0 +1,17 @@
+/*
+.side-nav__brand {
+  background: url('custom-logo.svg') no-repeat left center !important;
+  margin-left: 10px;
+}
+*/
+
+.side-nav__brand {
+  background: url('death.jpg') no-repeat left center !important;
+  margin-left: 42px;
+  height: 90px;
+  background-size: contain !important;
+}
+
+.side-nav__brand-text {
+  display: none;
+}

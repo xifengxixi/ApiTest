@@ -1,0 +1,25 @@
+- name: 货运计划-指派承运商
+  base_url: ${get_url(test_url)}
+  parameters:
+  request: 
+    method: post
+    url: /th_web/order/dispatch2carrierForGoods
+    headers: 
+      Content-Type: application/json
+      token: "{{token_dd}}"
+    json:
+      dispatchGoodsItems: 
+        - carrierCode: "1000549722"
+          carrierName: 新疆久运物流有限责任公司
+          goodsCode: "1"
+          goodsName: 货物1
+          goodsWeight: 30
+          id: "{{useGoodsId_goods}}"
+          unit: 吨
+      orderId: "{{orderId_goods}}"
+      remark: 这是调度指派承运商备注！
+  # json表达式提取，正则表达式提取
+  extract:
+  validate:
+    - equals: {status_code: 200}
+    - equals: {code: 0}

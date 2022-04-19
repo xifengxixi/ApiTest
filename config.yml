@@ -1,0 +1,44 @@
+base: 
+  test_url: http://172.16.10.218:11001 # 测试环境
+  yhzx_url: http://172.16.10.218:10188 # 用户中心登录地址
+  workFlow_url: http://172.16.10.218:10193 # 工作流地址
+  
+log:
+  log_name: log
+  log_level: debug
+  log_format: '[%(asctime)s] %(filename)s->%(funcName)s line:%(lineno)d [%(levelname)s] %(message)s'
+
+Project:
+  # 项目名称
+  ProjectName: 吐哈接口测试
+  # 测试人员名称，作用于自动生成代码的作者，以及发送企业微信、钉钉通知的测试负责人
+  TestName: 溪风习习
+  # 数据库类型：1：MysqlDB 2：OracleDB
+  DBType: OracleDB
+  # 报告通知类型：0：不通知 1：钉钉 2：企业微信通知 3：邮件通知
+  NotificationType: 0
+
+# MySql相关配置
+MysqlDB:
+  host:
+  user:
+  password:
+  db: 
+
+# Oracle相关配置
+OracleDB:
+  host: 172.16.10.220
+  post: 1521
+  service: ltp
+  user:
+  password:
+
+# 钉钉相关配置
+DingTalk:
+  webhook: https://oapi.dingtalk.com/robot/send?access_token=0bba31edd3b67f029941b1cfc68323d5c3ef64a84f6317757a4888b9db5ae845
+  secret: SECafb47e38fc77bbcdd32d5b4d4c9090a8993bca6d16e0791d129356aa39c7797e
+  # 钉钉消息推送类型：1：text 2:link 3:markdown
+  send_type: markdown
+  # 钉钉消息@对象,列表格式,不填则默认所有人
+  mobiles:
+    - 17628271013

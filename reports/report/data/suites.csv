@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Mar 21 08:41:25 CST 2022","Mon Mar 21 08:41:26 CST 2022","442","testcases.Flow","test_flow","TestFlow","","","调度登录","调度登录"
+"passed","Mon Mar 21 08:41:26 CST 2022","Mon Mar 21 08:41:26 CST 2022","480","testcases.Flow","test_flow","TestFlow","","","承运商登录","承运商登录"
+"passed","Mon Mar 21 08:41:22 CST 2022","Mon Mar 21 08:41:22 CST 2022","572","testcases.Flow","test_flow","TestFlow","","","获取图片验证码","获取图片验证码"
+"passed","Mon Mar 21 08:41:25 CST 2022","Mon Mar 21 08:41:25 CST 2022","470","testcases.Flow","test_flow","TestFlow","","","审核人登录","审核人登录"
+"passed","Mon Mar 21 08:41:22 CST 2022","Mon Mar 21 08:41:25 CST 2022","2371","testcases.Flow","test_flow","TestFlow","","","提报人登录","提报人登录"

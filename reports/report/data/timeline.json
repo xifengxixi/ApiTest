@@ -1,0 +1,98 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-THIAO5U",
+    "children" : [ {
+      "name" : "6016-MainThread",
+      "children" : [ {
+        "name" : "承运商登录",
+        "uid" : "f75526043924eb8b",
+        "parentUid" : "8aac009b934a49dc55ee51adb354ecaa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647823286060,
+          "stop" : 1647823286540,
+          "duration" : 480
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '承运商登录', 'base_url': '${get_url(yhzx_url)}', 'parameters': {'name-account-code-pwd-extract-validate': 'data/test_flow_02_login.csv'}, 'request': {'method': 'POST', 'url': '/user_center/account/login', 'json': {'account': '8xN7ce2ayKl1dPzFEdXQsA==', 'code': '${get_extract(image_code)}', 'pwd': '1a8f04ad2d17eee8a6bbe029ae597461'}}, 'extract': {'token_cys': 'token'}, 'validate': [{'equals': {'status_code': 200}}, {'equals': {'code': 0}}, {'contains': 'token'}]}" ]
+      }, {
+        "name" : "获取图片验证码",
+        "uid" : "d5b6fb44562bbbc6",
+        "parentUid" : "8aac009b934a49dc55ee51adb354ecaa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647823282184,
+          "stop" : 1647823282756,
+          "duration" : 572
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '获取图片验证码', 'base_url': '${get_url(yhzx_url)}', 'parameters': None, 'request': {'method': 'GET', 'url': '/user_center/account/imageCode'}, 'extract': {'image_code': '${get_image_code}'}, 'validate': [{'equals': {'status_code': 200}}]}" ]
+      }, {
+        "name" : "审核人登录",
+        "uid" : "f676899ff49713d2",
+        "parentUid" : "8aac009b934a49dc55ee51adb354ecaa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647823285137,
+          "stop" : 1647823285607,
+          "duration" : 470
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '审核人登录', 'base_url': '${get_url(yhzx_url)}', 'parameters': {'name-account-code-pwd-extract-validate': 'data/test_flow_02_login.csv'}, 'request': {'method': 'POST', 'url': '/user_center/account/login', 'json': {'account': 'hPgw6BimkHqH4fvc92xSsA==', 'code': '${get_extract(image_code)}', 'pwd': '1a8f04ad2d17eee8a6bbe029ae597461'}}, 'extract': {'token_sh': 'token'}, 'validate': [{'equals': {'status_code': 200}}, {'equals': {'code': 0}}, {'contains': 'token'}]}" ]
+      }, {
+        "name" : "调度登录",
+        "uid" : "6674715e04fdc27e",
+        "parentUid" : "8aac009b934a49dc55ee51adb354ecaa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647823285613,
+          "stop" : 1647823286055,
+          "duration" : 442
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '调度登录', 'base_url': '${get_url(yhzx_url)}', 'parameters': {'name-account-code-pwd-extract-validate': 'data/test_flow_02_login.csv'}, 'request': {'method': 'POST', 'url': '/user_center/account/login', 'json': {'account': 'cu6OeWcLNpnRG+9rnd0YAw==', 'code': '${get_extract(image_code)}', 'pwd': '1a8f04ad2d17eee8a6bbe029ae597461'}}, 'extract': {'token_dd': 'token'}, 'validate': [{'equals': {'status_code': 200}}, {'equals': {'code': 0}}, {'contains': 'token'}]}" ]
+      }, {
+        "name" : "提报人登录",
+        "uid" : "91e09e40785a3177",
+        "parentUid" : "8aac009b934a49dc55ee51adb354ecaa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647823282761,
+          "stop" : 1647823285132,
+          "duration" : 2371
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': '提报人登录', 'base_url': '${get_url(yhzx_url)}', 'parameters': {'name-account-code-pwd-extract-validate': 'data/test_flow_02_login.csv'}, 'request': {'method': 'POST', 'url': '/user_center/account/login', 'json': {'account': 'vJzarh1FCgzAvcJJybJRzA==', 'code': '${get_extract(image_code)}', 'pwd': '1a8f04ad2d17eee8a6bbe029ae597461'}}, 'extract': {'token_tb': 'token'}, 'validate': [{'equals': {'status_code': 200}}, {'equals': {'code': 0}}, {'contains': 'token'}]}" ]
+      } ],
+      "uid" : "8aac009b934a49dc55ee51adb354ecaa"
+    } ],
+    "uid" : "a8ca739052afc3cd1980fe6ac0be9ea0"
+  } ]
+}

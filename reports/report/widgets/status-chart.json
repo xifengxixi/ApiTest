@@ -1,0 +1,51 @@
+[ {
+  "uid" : "6674715e04fdc27e",
+  "name" : "调度登录",
+  "time" : {
+    "start" : 1647823285613,
+    "stop" : 1647823286055,
+    "duration" : 442
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f75526043924eb8b",
+  "name" : "承运商登录",
+  "time" : {
+    "start" : 1647823286060,
+    "stop" : 1647823286540,
+    "duration" : 480
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d5b6fb44562bbbc6",
+  "name" : "获取图片验证码",
+  "time" : {
+    "start" : 1647823282184,
+    "stop" : 1647823282756,
+    "duration" : 572
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f676899ff49713d2",
+  "name" : "审核人登录",
+  "time" : {
+    "start" : 1647823285137,
+    "stop" : 1647823285607,
+    "duration" : 470
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "91e09e40785a3177",
+  "name" : "提报人登录",
+  "time" : {
+    "start" : 1647823282761,
+    "stop" : 1647823285132,
+    "duration" : 2371
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

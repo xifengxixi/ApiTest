@@ -1,0 +1,11 @@
+[32mINFO    [0m log:requests_util.py:179 ----------接口请求开始----------
+[32mINFO    [0m log:requests_util.py:180 接口名称：提报人登录
+[32mINFO    [0m log:requests_util.py:181 请求方式：post
+[32mINFO    [0m log:requests_util.py:182 请求路径：http://172.16.10.218:10188/user_center/account/login
+[32mINFO    [0m log:requests_util.py:183 请求头：{}
+[32mINFO    [0m log:requests_util.py:189 请求参数：{'account': 'vJzarh1FCgzAvcJJybJRzA==', 'code': 'kvdk', 'pwd': '1a8f04ad2d17eee8a6bbe029ae597461'}
+[32mINFO    [0m log:requests_util.py:190 文件上传：None
+[32mINFO    [0m log:requests_util.py:281 预期结果：[{'equals': {'status_code': 200}}, {'equals': {'code': 0}}, {'contains': 'token'}]
+[32mINFO    [0m log:requests_util.py:282 实际结果：{'code': 0, 'msg': None, 'data': {'token': '2f3abeace66f39f56947c5a2a853f7f2000010', 'setPwd': 'NO'}}
+[32mINFO    [0m log:requests_util.py:318 接口请求成功
+[32mINFO    [0m log:requests_util.py:319 ----------接口请求结束----------

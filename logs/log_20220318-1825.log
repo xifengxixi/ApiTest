@@ -1,0 +1,71 @@
+[2022-03-18 18:25:14,386] requests_util.py->do_requests line:179 [INFO] ----------接口请求开始----------
+[2022-03-18 18:25:14,387] requests_util.py->do_requests line:180 [INFO] 接口名称：获取图片验证码
+[2022-03-18 18:25:14,387] requests_util.py->do_requests line:181 [INFO] 请求方式：get
+[2022-03-18 18:25:14,388] requests_util.py->do_requests line:182 [INFO] 请求路径：http://172.16.10.218:10188/user_center/account/imageCode
+[2022-03-18 18:25:14,389] requests_util.py->do_requests line:183 [INFO] 请求头：{}
+[2022-03-18 18:25:14,390] requests_util.py->do_requests line:190 [INFO] 文件上传：None
+[2022-03-18 18:25:14,776] requests_util.py->do_validate line:281 [INFO] 预期结果：[{'equals': {'status_code': 200}}]
+[2022-03-18 18:25:14,778] requests_util.py->do_validate line:282 [INFO] 实际结果：b'\xff\xd8\xff\xe0\x00\x10JFIF\x00\x01\x02\x00\x00\x01\x00\x01\x00\x00\xff\xdb\x00C\x00\x08\x06\x06\x07\x06\x05\x08\x07\x07\x07\t\t\x08\n\x0c\x14\r\x0c\x0b\x0b\x0c\x19\x12\x13\x0f\x14\x1d\x1a\x1f\x1e\x1d\x1a\x1c\x1c $.\' ",#\x1c\x1c(7),01444\x1f\'9=82<.342\xff\xdb\x00C\x01\t\t\t\x0c\x0b\x0c\x18\r\r\x182!\x1c!22222222222222222222222222222222222222222222222222\xff\xc0\x00\x11\x08\x00(\x00d\x03\x01"\x00\x02\x11\x01\x03\x11\x01\xff\xc4\x00\x1f\x00\x00\x01\x05\x01\x01\x01\x01\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x02\x03\x04\x05\x06\x07\x08\t\n\x0b\xff\xc4\x00\xb5\x10\x00\x02\x01\x03\x03\x02\x04\x03\x05\x05\x04\x04\x00\x00\x01}\x01\x02\x03\x00\x04\x11\x05\x12!1A\x06\x13Qa\x07"q\x142\x81\x91\xa1\x08#B\xb1\xc1\x15R\xd1\xf0$3br\x82\t\n\x16\x17\x18\x19\x1a%&\'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz\x83\x84\x85\x86\x87\x88\x89\x8a\x92\x93\x94\x95\x96\x97\x98\x99\x9a\xa2\xa3\xa4\xa5\xa6\xa7\xa8\xa9\xaa\xb2\xb3\xb4\xb5\xb6\xb7\xb8\xb9\xba\xc2\xc3\xc4\xc5\xc6\xc7\xc8\xc9\xca\xd2\xd3\xd4\xd5\xd6\xd7\xd8\xd9\xda\xe1\xe2\xe3\xe4\xe5\xe6\xe7\xe8\xe9\xea\xf1\xf2\xf3\xf4\xf5\xf6\xf7\xf8\xf9\xfa\xff\xc4\x00\x1f\x01\x00\x03\x01\x01\x01\x01\x01\x01\x01\x01\x01\x00\x00\x00\x00\x00\x00\x01\x02\x03\x04\x05\x06\x07\x08\t\n\x0b\xff\xc4\x00\xb5\x11\x00\x02\x01\x02\x04\x04\x03\x04\x07\x05\x04\x04\x00\x01\x02w\x00\x01\x02\x03\x11\x04\x05!1\x06\x12AQ\x07aq\x13"2\x81\x08\x14B\x91\xa1\xb1\xc1\t#3R\xf0\x15br\xd1\n\x16$4\xe1%\xf1\x17\x18\x19\x1a&\'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz\x82\x83\x84\x85\x86\x87\x88\x89\x8a\x92\x93\x94\x95\x96\x97\x98\x99\x9a\xa2\xa3\xa4\xa5\xa6\xa7\xa8\xa9\xaa\xb2\xb3\xb4\xb5\xb6\xb7\xb8\xb9\xba\xc2\xc3\xc4\xc5\xc6\xc7\xc8\xc9\xca\xd2\xd3\xd4\xd5\xd6\xd7\xd8\xd9\xda\xe2\xe3\xe4\xe5\xe6\xe7\xe8\xe9\xea\xf2\xf3\xf4\xf5\xf6\xf7\xf8\xf9\xfa\xff\xda\x00\x0c\x03\x01\x00\x02\x11\x03\x11\x00?\x00\xf7\xfa)\x92K\x1c+\xbaY\x11\x14\x9ce\x98\x01\x9ar\xb0e\x0c\xa4\x15# \x83\xc1\x14\xae\xb6\x1d\x9e\xe2\xd1L\x12\xc6e1\t\x10\xc8\x06J\x06\x19\x03\xe9D\xb2\xc7o\x0b\xcd4\x89\x1cQ\xa9ww`\x15TrI\'\xa0\xa6\xb5\xd8,\xc7\xd1^s\xf0\xf3\xc7\x9a\xd7\x8bu\x9b\x9bk\xdb;T\xb5\x86\xdc\xc8e\xb7\x89\xc6\x1fp\n\xa4\x96#\x91\xb8\xe3\xdb\xd8\xd7G\xe2\x8f\x14\x7fb\xf9\x1a~\x9fo\xf6\xedr\xf3\xe5\xb4\xb3_\xfd\r\xfd\x10`\xfag\x07\x90\x01"\xdd9)r\xf5.T\xa4\xa5\xc9\xd4\xe8\xe8\xaa\xd6\x02\xf4XB5\x17\xb7k\xcd\xb9\x94\xdb\xab,{\xbd\x141\'\x03\xa6O^\xb8\x1d\x07\x99|+\xff\x00\x89\x8f\x8e<y\xac\xb7\xfaTr_y6\xd7\xc7\xe7\r\x18y>D\x93\xba\xed\x11p\x0e0\x13\xda\x85\x0b\xa6\xfb\x19\x9e\xadE\x15SS\x9aK}>Ybm\xae\xb8\xc1\xc6{\x8a\x86\xec8\xc7\x99\xa4\x8btVv\x8ds5\xdd\x9b\xc9;\xeea!\x00\xe0\x0e0=+F\x92wW\x1c\xe2\xe1\'\x16\x14QE2L_\x12H\x05\xac1`\xeeg\xdc=0\x07\xff\x00\\T\xe6\xe2X\xed\xe1\xb2\xb4\xdb-\xca\xa0Gu\xe5"\xc0\xc6I\xfc\x0f\x1f\xfe\xa3OY\xfd\xf6\xb1g\x03\xf3\x11\xdb\xf2\xfd[\x07\xf9\n\x84\xa4\x9a\x0e\xa2\xad\xb9\x9e\xdaL\xf0\x0f${\xfb\x8c\xff\x00\x9ek\xcf\x9c\xda\xab)t\xd1_\xb1\xdf\x18\'N1\xeb\xab\xb7sr\xce\xce;8\x8a\xa9/#\x1c\xc9#us\xebY\x1e9\xbd\x8e\xc3\xc0\xda\xcc\xd2\xab\xb2\xb5\xab\xc2\x02\x00N\xe9>A\xf8e\x86}\xabv)c\x9e%\x96&\x0c\x8c2\x08\xae\x07\xe3\x1d\xd4\xd6\xfe\tH\xa2}\xa9qy\x1cR\x8c\x03\xb9B\xb3\xe3\xdb\xe6E<zW\xa3F*\xf1Q\xd8\xe5\x85\xe7Usos\xcf\xfc\x13\xe2\xb8|\x1b\xe1\xedZ\xf4\x18\xa7\xbe\xbc\x91"\xb6\xb6\xc9\xca\x94\x0cK\xbf\xa2~\xf0c\x9c\xb1\x04q\x82G\xad\xf8G\xc3\x91\xe9\x90\xbe\xaduv\x9a\x96\xaf\xa8(\x92\xe2\xfc\x10\xca\xcapB\xc6{\'Lc\xae\x07@\x00\x1ewi\xe0\xa8\xf5\xdf\x83\xb67V1\xe3Q\x82I\xee\xb1\xf31\x9b\xe6*\xc8\x00=J\xc6\x98\xc0\xea\xa0q\xb8\x9a\xbf\xf0w\xc5M"I\xe1\xab\xb9\x10\x08\xd4\xcbe\x90\x01#$\xbag<\x9ew\x0e\t\xc6\xeep\x05u\xd5\\\xcaN?3\xaa\xb2\xe6\x8c\xa5\x1d\xef\xa9\xea\x1a\xa6\xa1\x16\x93\xa4^\xeaS\xab\xb46\x90<\xf2,`\x16*\x8aX\x81\x92\x06p=k\xc6\xfe\x15x\x1a\xf7W\xf0Lr\xdf\xeb\xd7QhW\xb3\xc91\xd3,\xcf\x96f \xf9m\xe6\xca>b\x8c\x11\x94\xa0\xe3\x189\x06\xbb\xdf\x8a\xf7\x97\x16?\x0c5\xc9\xad\xa4\xd9#D\x90\x93\x80~I$Tq\xcf\xaa\xb1\x1f\x8f\x15{\xe1\xfd\x9d\xbd\x8f\xc3\xdf\x0f\xc3m\x1e\xc8\xda\xc6)\x88\xc9?<\x8a\x1d\xcf>\xac\xc4\xfe<VQ\x93\x85&\xd7Vp\x1e}\x06\x8fg\xe0\xff\x00\x8e\xfa\x16\x8f\xa0\t\xact\xeb\xcb\x16\x9a\xe6\xd9.$d\x99\xc2\xdc`\xb0f9\xc6\x063\xd2\xbd[Y\xff\x00\x90L\xff\x00\xf0\x1f\xfd\x08W\x9cX\x7f\xc4\xcf\xf6\x91\xd5>\xd9\xfb\xdf\xec\xbd1~\xc7\xfc>VV<\xf4\xc6\xef\xf5\xd2u\xcf\xde\xf6\x18\xf4}g\xfeA3\xff\x00\xc0\x7f\xf4!S\x88wJ\xfd\x8d)\x7f\x12>\xa8\xc7\xd3\xc5\xf4\xd62Ch6(b\xed&\xec\x12p>P\x7f\x0f\xff\x00W{Z\x15\xec\xd2\xcd,\x12\xbbH6\xef\x05\x9b$v\xfe\xbf\xa5O\xe1\xef\xf8\xf0\x93\xfe\xba\x9f\xe4*\x87\x87\xbf\xe3\xfeO\xfa\xe4\x7f\x98\xaeU\xa5\x8e\xc9\xb5%Q5\xb1\xd2\xd1E\x15\xa9\xe7\x94\xff\x00\xb3\xa1\xfe\xd1\xfbv\xe7\xf3}26\xf4\xc7\xa5Msm\x15\xdc\r\x0c\xcb\x95=\x0fp}E\x14T(E&\xad\xb9\\\xf2\xbaw\xd8e\x9d\x9a\xd9Db\x8eI\x1d3\x90\x1c\x83\xb7\xe9\xc5b\xf8\xaf\xc1zo\x8c>\xc9\xfd\xa1=\xd4_e\xdf\xb3\xec\xee\xab\x9d\xdbs\x9c\xa9\xfe\xe8\xa2\x8a\xb8{\x96\xe5\xd0|\xf2\xe6\xe6\xbe\xa6\xd6\x9fe\x1e\x9b\xa6\xda\xd8B\xce\xd1[B\x90\xa1r\x0b\x15P\x00\xce;\xf1\\\x9d\xd7\xc3\r\x16\xe3\xc4/\xad\xc5u\xa8[]\xb5\xc0\xb9\x1eT\x88Ud\xce\xed\xc027\xf1s\x83\x91\xcf\xa7\x14QT\xa7%\xaab\x8c\xe5\x17t\xcd_\x18x?O\xf1\xb6\x91\x16\x9b\xa9Mu\x141N\'V\xb6eV\xdc\x15\x97\x07r\x91\x8c1\xed]\x05\x14R\xbbj\xc4\x9c\xff\x00\x87\xfc\x1f\xa7\xf8oW\xd6\xb5+9\xae\x9emb\x7f>\xe1fe*\xad\xb9\xdb\t\x85\x04\x0c\xb9\xeaOj\xda\xb9\xb7K\xbbv\x82B\xc1[\x19+\xd7\x83\x9a(\xa2M\xcbV4\xdawCl\xec\xe3\xb1\x84\xc5\x131R\xdb\xbec\xcf\xf9\xe2\xa1\xb3\xd2\xa0\xb1\x98\xcb\x13\xc8X\xae\xdf\x98\x8c\x7f/j(\xa9\xb2+\xdaK]w/QE\x14\xc8?\xff\xd9'
+[2022-03-18 18:25:14,784] requests_util.py->do_validate line:318 [INFO] 接口请求成功
+[2022-03-18 18:25:14,785] requests_util.py->do_validate line:319 [INFO] ----------接口请求结束----------
+
+[2022-03-18 18:25:15,139] requests_util.py->do_requests line:179 [INFO] ----------接口请求开始----------
+[2022-03-18 18:25:15,140] requests_util.py->do_requests line:180 [INFO] 接口名称：提报人登录
+[2022-03-18 18:25:15,141] requests_util.py->do_requests line:181 [INFO] 请求方式：post
+[2022-03-18 18:25:15,142] requests_util.py->do_requests line:182 [INFO] 请求路径：http://172.16.10.218:10188/user_center/account/login
+[2022-03-18 18:25:15,143] requests_util.py->do_requests line:183 [INFO] 请求头：{}
+[2022-03-18 18:25:15,144] requests_util.py->do_requests line:189 [INFO] 请求参数：{'account': 'vJzarh1FCgzAvcJJybJRzA==', 'code': 'kkhh', 'pwd': '1a8f04ad2d17eee8a6bbe029ae597461'}
+[2022-03-18 18:25:15,145] requests_util.py->do_requests line:190 [INFO] 文件上传：None
+[2022-03-18 18:25:15,220] requests_util.py->do_validate line:281 [INFO] 预期结果：[{'equals': {'status_code': 200}}, {'equals': {'code': 0}}, {'contains': 'token'}]
+[2022-03-18 18:25:15,222] requests_util.py->do_validate line:282 [INFO] 实际结果：{'code': 0, 'msg': None, 'data': {'token': 'd013bb9ace157e67a860ecd7870cb6c4000020', 'setPwd': 'NO'}}
+[2022-03-18 18:25:15,223] requests_util.py->do_validate line:318 [INFO] 接口请求成功
+[2022-03-18 18:25:15,224] requests_util.py->do_validate line:319 [INFO] ----------接口请求结束----------
+
+[2022-03-18 18:25:15,564] requests_util.py->do_requests line:179 [INFO] ----------接口请求开始----------
+[2022-03-18 18:25:15,565] requests_util.py->do_requests line:180 [INFO] 接口名称：审核人登录
+[2022-03-18 18:25:15,566] requests_util.py->do_requests line:181 [INFO] 请求方式：post
+[2022-03-18 18:25:15,567] requests_util.py->do_requests line:182 [INFO] 请求路径：http://172.16.10.218:10188/user_center/account/login
+[2022-03-18 18:25:15,568] requests_util.py->do_requests line:183 [INFO] 请求头：{}
+[2022-03-18 18:25:15,569] requests_util.py->do_requests line:189 [INFO] 请求参数：{'account': 'hPgw6BimkHqH4fvc92xSsA==', 'code': 'kkhh', 'pwd': '1a8f04ad2d17eee8a6bbe029ae597461'}
+[2022-03-18 18:25:15,571] requests_util.py->do_requests line:190 [INFO] 文件上传：None
+[2022-03-18 18:25:15,644] requests_util.py->do_validate line:281 [INFO] 预期结果：[{'equals': {'status_code': 200}}, {'equals': {'code': 0}}, {'contains': 'token'}]
+[2022-03-18 18:25:15,645] requests_util.py->do_validate line:282 [INFO] 实际结果：{'code': 0, 'msg': None, 'data': {'token': 'a4de0da16b1afcfeb35bf766def180b200006d', 'setPwd': 'NO'}}
+[2022-03-18 18:25:15,646] requests_util.py->do_validate line:318 [INFO] 接口请求成功
+[2022-03-18 18:25:15,647] requests_util.py->do_validate line:319 [INFO] ----------接口请求结束----------
+
+[2022-03-18 18:25:15,984] requests_util.py->do_requests line:179 [INFO] ----------接口请求开始----------
+[2022-03-18 18:25:15,985] requests_util.py->do_requests line:180 [INFO] 接口名称：调度登录
+[2022-03-18 18:25:15,986] requests_util.py->do_requests line:181 [INFO] 请求方式：post
+[2022-03-18 18:25:15,987] requests_util.py->do_requests line:182 [INFO] 请求路径：http://172.16.10.218:10188/user_center/account/login
+[2022-03-18 18:25:15,988] requests_util.py->do_requests line:183 [INFO] 请求头：{}
+[2022-03-18 18:25:15,989] requests_util.py->do_requests line:189 [INFO] 请求参数：{'account': 'cu6OeWcLNpnRG+9rnd0YAw==', 'code': 'kkhh', 'pwd': '1a8f04ad2d17eee8a6bbe029ae597461'}
+[2022-03-18 18:25:15,990] requests_util.py->do_requests line:190 [INFO] 文件上传：None
+[2022-03-18 18:25:16,072] requests_util.py->do_validate line:281 [INFO] 预期结果：[{'equals': {'status_code': 200}}, {'equals': {'code': 0}}, {'contains': 'token'}]
+[2022-03-18 18:25:16,073] requests_util.py->do_validate line:282 [INFO] 实际结果：{'code': 0, 'msg': None, 'data': {'token': '6f4d98d9dd765d4c6eff00fdf9e193c20000d2', 'setPwd': 'NO'}}
+[2022-03-18 18:25:16,074] requests_util.py->do_validate line:318 [INFO] 接口请求成功
+[2022-03-18 18:25:16,075] requests_util.py->do_validate line:319 [INFO] ----------接口请求结束----------
+
+[2022-03-18 18:25:16,417] requests_util.py->do_requests line:179 [INFO] ----------接口请求开始----------
+[2022-03-18 18:25:16,418] requests_util.py->do_requests line:180 [INFO] 接口名称：承运商登录
+[2022-03-18 18:25:16,420] requests_util.py->do_requests line:181 [INFO] 请求方式：post
+[2022-03-18 18:25:16,420] requests_util.py->do_requests line:182 [INFO] 请求路径：http://172.16.10.218:10188/user_center/account/login
+[2022-03-18 18:25:16,421] requests_util.py->do_requests line:183 [INFO] 请求头：{}
+[2022-03-18 18:25:16,422] requests_util.py->do_requests line:189 [INFO] 请求参数：{'account': '8xN7ce2ayKl1dPzFEdXQsA==', 'code': 'kkhh', 'pwd': '1a8f04ad2d17eee8a6bbe029ae597461'}
+[2022-03-18 18:25:16,423] requests_util.py->do_requests line:190 [INFO] 文件上传：None
+[2022-03-18 18:25:16,495] requests_util.py->do_validate line:281 [INFO] 预期结果：[{'equals': {'status_code': 200}}, {'equals': {'code': 0}}, {'contains': 'token'}]
+[2022-03-18 18:25:16,495] requests_util.py->do_validate line:282 [INFO] 实际结果：{'code': 0, 'msg': None, 'data': {'token': '26b1c6b177861820ccddabf5751cf9d800004b', 'setPwd': 'NO'}}
+[2022-03-18 18:25:16,497] requests_util.py->do_validate line:318 [INFO] 接口请求成功
+[2022-03-18 18:25:16,498] requests_util.py->do_validate line:319 [INFO] ----------接口请求结束----------
+
+[2022-03-18 18:25:16,986] requests_util.py->do_requests line:179 [INFO] ----------接口请求开始----------
+[2022-03-18 18:25:16,988] requests_util.py->do_requests line:180 [INFO] 接口名称：提报计划-值班
+[2022-03-18 18:25:16,989] requests_util.py->do_requests line:181 [INFO] 请求方式：post
+[2022-03-18 18:25:16,990] requests_util.py->do_requests line:182 [INFO] 请求路径：http://172.16.10.218:11001/th_web/order/saveOrderByCar
+[2022-03-18 18:25:16,991] requests_util.py->do_requests line:183 [INFO] 请求头：{'Content-Type': 'application/json', 'token': 'd013bb9ace157e67a860ecd7870cb6c4000020'}
+[2022-03-18 18:25:16,992] requests_util.py->do_requests line:189 [INFO] 请求参数：{'applyPhone': '13695685421', 'cars': [{'applyCount': 1, 'calculateType': 'TRUCKS', 'goodsCode': '1', 'goodsName': '货物1', 'settleAmount': 20, 'vehicleKind': '单车', 'vehicleKindCode': '0200500010', 'vehicleType': '卡车', 'vehicleTypeCode': '0200510011'}], 'id': None, 'loadAddress': '这是出发地具体报到地点', 'loadCode': 'HR79007289', 'loadName': '海西加油站_HR79007289', 'loadTime': '2022-03-18 19:25', 'passenger': '这是用车人', 'passengerPhone': '15811112222', 'remark': '接口自动化流程测试', 'settleDepartmentCode': '00128161', 'unloadAddress': '这是目的地具体报到地点', 'unloadCode': 'HR79007287', 'unloadName': '昌吉2加油站_HR79007287', 'unloadTime': '2022-03-19 18:25', 'useCarReason': '值班测试', 'workHour': 3}
+[2022-03-18 18:25:16,993] requests_util.py->do_requests line:190 [INFO] 文件上传：None
+[2022-03-18 18:25:21,305] requests_util.py->do_validate line:281 [INFO] 预期结果：[{'equals': {'status_code': 200}}, {'equals': {'code': 0}}]
+[2022-03-18 18:25:21,307] requests_util.py->do_validate line:282 [INFO] 实际结果：{'code': 0, 'msg': None, 'data': {'id': 'aa98598efd983a618992a829208116e2', 'orderNo': 'YTJH-2203180006', 'orderType': 1, 'orderTypeDesc': '值班计划', 'carrierName': '一公司吐哈市场项目部', 'loadName': '海西加油站', 'loadDesc': '海西加油站_HR79007289', 'unloadName': '昌吉2加油站', 'unloadDesc': '昌吉2加油站_HR79007287', 'loadCode': 'HR79007289', 'unloadCode': 'HR79007287', 'loadAddress': '这是出发地具体报到地点', 'unloadAddress': '这是目的地具体报到地点', 'loadTime': '2022-03-18 19:25', 'unloadTime': '2022-03-19 18:25'}}
+[2022-03-18 18:25:21,309] requests_util.py->do_validate line:318 [INFO] 接口请求成功
+[2022-03-18 18:25:21,310] requests_util.py->do_validate line:319 [INFO] ----------接口请求结束----------
+

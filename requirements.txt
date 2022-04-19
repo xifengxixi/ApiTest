@@ -1,0 +1,9 @@
+pytest==7.1.1
+PyYAML==6.0
+requests==2.26.0
+ddddocr==1.4.3
+allure-pytest==2.9.45
+Faker==12.1.0
+jsonpath==0.82
+colorlog==6.6.0
+cx_Oracle==8.3.0

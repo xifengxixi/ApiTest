@@ -1,0 +1,18 @@
+- name: $csv{name}
+  base_url: ${get_url(workFlow_url)}
+  parameters:
+    name-businessNo-extract: data/test_flow_07_executionTasks.csv
+  request: 
+    method: post
+    url: /work_flow/task/executionTasks
+    headers: 
+      Content-Type: application/json
+      token: "{{token_sh}}"
+    json:
+      businessNo: $csv{businessNo}
+  # json表达式提取，正则表达式提取
+  extract:
+    $csv{extract}
+  validate:
+    - equals: {status_code: 200}
+    - equals: {code: 0}

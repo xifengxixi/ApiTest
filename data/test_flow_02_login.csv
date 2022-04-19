@@ -1,0 +1,5 @@
+name,account,code,pwd,extract,validate
+提报人登录,vJzarh1FCgzAvcJJybJRzA==,"${get_extract(image_code)}",1a8f04ad2d17eee8a6bbe029ae597461,token_tb:token,equals:{status_code:200}-equals:{code:0}-contains:token
+审核人登录,hPgw6BimkHqH4fvc92xSsA==,"${get_extract(image_code)}",1a8f04ad2d17eee8a6bbe029ae597461,token_sh:token,equals:{status_code:200}-equals:{code:0}-contains:token
+调度登录,cu6OeWcLNpnRG+9rnd0YAw==,"${get_extract(image_code)}",1a8f04ad2d17eee8a6bbe029ae597461,token_dd:token,equals:{status_code:200}-equals:{code:0}-contains:token
+承运商登录,8xN7ce2ayKl1dPzFEdXQsA==,"${get_extract(image_code)}",1a8f04ad2d17eee8a6bbe029ae597461,token_cys:token,equals:{status_code:200}-equals:{code:0}-contains:token
