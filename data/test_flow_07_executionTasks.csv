@@ -1,4 +1,0 @@
-name,businessNo,extract
-待办任务列表查询值班计划taskId,"{{orderNo_car}}",taskId_carPlan:id
-待办任务列表查询货运计划taskId,"{{orderNo_goods}}",taskId_goodsPlan:id
-待办任务列表查询总包计划taskId,"{{orderNo_total}}",taskId_totalPlan:id
