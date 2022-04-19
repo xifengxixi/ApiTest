@@ -1,4 +1,0 @@
-name,id,extract
-查看值班计划详情,"{{orderId_car}}",orderId_car:id-useCarId_car:id
-查看货运计划详情,"{{orderId_goods}}",orderId_goods:id-useGoodsId_goods:id
-查看总包计划详情,"{{orderId_total}}",orderId_total:id-useGoodsId_total:id
