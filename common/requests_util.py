@@ -40,8 +40,8 @@ class RequestsUtil:
                         end_index = str_data.index('}', start_index)
                         old_value = str_data[start_index:end_index + 1]
                         # 若热加载的函数需要传参数
-                        if '(' in str_data:
-                            if ')' in str_data:
+                        if '(' in old_value:
+                            if ')' in old_value:
                                 func_name = old_value[2:old_value.index('(')]
                                 args_value = old_value[old_value.index('(') + 1:old_value.index(')')]
                                 try:
